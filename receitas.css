@@ -1,0 +1,17 @@
+.containerReceitas {
+	display: flex;
+}
+.cardReceita {
+	background-color: #fff;
+	width: 320px;
+	padding: 10px;
+}
+
+.cardReceita div {
+	width: 300px;
+
+}
+.cardReceita img {
+	width: 100%;
+
+}

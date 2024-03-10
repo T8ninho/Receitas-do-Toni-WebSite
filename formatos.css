@@ -1,0 +1,64 @@
+body {
+	background-color: coral;
+}
+header ul {
+	display: flex;
+	padding-left: 10px;
+}
+header ul li {
+	margin: 20px;
+	list-style: none;
+}
+header {
+	height: 60px;
+	background-color: #00ff00;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+main {
+	display: flex;
+	padding-top: 60px;
+	height: calc(100vh - 100px);
+	justify-content: center;
+}
+
+footer {
+	height: 25px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #00ff00;
+}
+footer p {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+.titulo {
+	color: #000;
+	font-weight: 900;
+}
+.tituloAtivo {
+	color: red;
+}
+.logo {
+	height: 50px;
+	width: 50px;
+}
+.containerHome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.containerTitulo {
+	display: flex;
+	padding-bottom: 3%;
+}
+
