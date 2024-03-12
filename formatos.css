@@ -12,26 +12,20 @@ header ul li {
 header {
 	height: 60px;
 	background-color: #00ff00;
-	z-index: 1;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
 }
 main {
 	display: flex;
-	padding-top: 60px;
 	height: calc(100vh - 100px);
 	justify-content: center;
 }
 
 footer {
 	height: 25px;
+	background-color: #00ff00;
 	position: fixed;
 	bottom: 0;
-	right: 0;
 	left: 0;
-	background-color: #00ff00;
+	right: 0;
 }
 footer p {
 	text-align: center;
