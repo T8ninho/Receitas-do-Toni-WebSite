@@ -1,213 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	<title>Receitas do Toni | Receitas</title>
-	<link href="formatos.css" rel="stylesheet">
-	<link href="receitas.css" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<ul>
-			<li>
-				<a href="./home.html" class="titulo">Home</a>
-			</li>
-			<li>
-				<a href="./receitas.html" class="titulo tituloAtivo">Receitas</a>
-			</li>
-			<li>
-				<a href="#" class="titulo">Cadastro</a>
-			</li>
-		</ul>
-	</header>
-	<main>
-		<div class="containerReceitas">
-			<div class="cardReceita">
-				<h3>Arroz de Couve-flor</h3>
-				<div>
-					<img src="./Image/Imagem01.png" alt="Imagem Arroz de Couve-flor" />
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<title>Receitas do Toni | Receitas</title>
+		<link href="formatos.css" rel="stylesheet" />
+		<link href="receitas.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="navbar nav-tabs p-0">
+			<nav class="w-100">
+				<ul class="d-flex">
+					<li>
+						<a href="./home.html" class="titulo">Home</a>
+					</li>
+					<li>
+						<a href="./receitas.html" class="titulo tituloAtivo">Receitas</a>
+					</li>
+					<li>
+						<a href="./cadastro.html" class="titulo">Cadastro</a>
+					</li>
 				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Bolo de Café</h3>
-				<div>
-					<img src="./Image/Imagem02.png" alt="Imagem Bolo de Café"/>
+			</nav>
+		</header>
+		<main class="container-fluid" style="background-color: coral;">
+			<div class="containerReceitas container-fluid">
+				<div class="card sombra-externa" style="width: 200px;">
+					<img
+						class="card-img-top"
+						src="./Image/Imagem01.jpeg"
+						alt="Imagem Arroz à Jardineira"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Arroz à Jardineira</h5>
+						<div class="card-text">
+							<ul>
+								<li>Cebolha e Alho</li>
+								<li>Cenoura</li>
+								<li>Arroz integral</li>
+								<li>Ervilha</li>
+								<li>Brócolis cru</li>
+							</ul>
+							<hr>
+							<p>
+								Aqueça o azeite, refogue o alho e a cebola. Junte o arroz, o brócolis e a cenoura cortados, deixe em fogo até começar a secar. Junte a ervilha e sirva!
+							</p>
+						</div>
+					</div>
 				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Coxinha de brigadeiro</h3>
-				<div>
-					<img src="./Image/Imagem03.png" alt="Imagem Coxinha de brigadeiro" />
+				<div class="card sombra-externa" style="width: 200px">
+					<img
+						class="card-img-top"
+						src="./Image/Imagem02.jpeg"
+						alt="Imagem Vinho Quente Na Maçã"
+					/>
+					<div class="card-body">
+						<h5>Vinho Quente Na Maçã</h5>
+						<ul>
+							<li>Vinho</li>
+							<li>Maçã</li>
+							<li>Canela em casca</li>
+							<li>Açúcar</li>
+						</ul>
+						<hr />
+						<p>
+							Reserve o vinho e adicione os demais ingredientes em uma panela ao fogo com água, mexa para dissolver e corte o topo da maçã. Tire a polpa.
+Sirva o vinho em temperatura ambiente na maçã!
+						</p>
+					</div>
 				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Arroz de Couve-flor</h3>
-				<div>
-					<img src="./Image/Imagem01.png" alt="Imagem Arroz de Couve-flor" />
+				<div class="card sombra-externa" style="width: 200px">
+					<img
+						class="card-img-top"
+						src="./Image/Imagem03.jpeg"
+						alt="Imagem Rocambole de Carne Moída"
+					/>
+					<div class="card-body">
+						<h5>Rocambole de Carne Moída</h5>
+						<ul>
+							<li>Carne moída</li>
+							<li>cenoura</li>
+							<li>Manteiga</li>
+							<li>Tempero verde</li>
+						</ul>
+						<hr />
+						<p>
+							Abra a carne temperada numa folha de papel manteiga. enrole a carne com a cenoura e os ovos em forma de racambole. Leve ao forno por 30 minutos, e por fim sirva.
+						</p>
+					</div>
 				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
 			</div>
-			<div class="cardReceita">
-				<h3>Bolo de Café</h3>
-				<div>
-					<img src="./Image/Imagem02.png" alt="Imagem Bolo de Café"/>
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Coxinha de brigadeiro</h3>
-				<div>
-					<img src="./Image/Imagem03.png" alt="Imagem Coxinha de brigadeiro" />
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Arroz de Couve-flor</h3>
-				<div>
-					<img src="./Image/Imagem01.png" alt="Imagem Arroz de Couve-flor" />
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Bolo de Café</h3>
-				<div>
-					<img src="./Image/Imagem02.png" alt="Imagem Bolo de Café"/>
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Coxinha de brigadeiro</h3>
-				<div>
-					<img src="./Image/Imagem03.png" alt="Imagem Coxinha de brigadeiro" />
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Arroz de Couve-flor</h3>
-				<div>
-					<img src="./Image/Imagem01.png" alt="Imagem Arroz de Couve-flor" />
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Bolo de Café</h3>
-				<div>
-					<img src="./Image/Imagem02.png" alt="Imagem Bolo de Café"/>
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-			<div class="cardReceita">
-				<h3>Coxinha de brigadeiro</h3>
-				<div>
-					<img src="./Image/Imagem03.png" alt="Imagem Coxinha de brigadeiro" />
-				</div>
-				<ul>
-					<li>Arroz</li>
-					<li>Couve-Flor</li>
-					<li>Cebola</li>
-					<li>Azeite</li>
-				</ul>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iste esse, recusandae accusamus nulla quas a tempore cumque eligendi nobis minus corrupti suscipit magnam porro culpa deleniti reiciendis, quisquam neque.
-				</p>
-			</div>
-		</div>
-	</main>
-	<footer>
-		<p>&copy; Tio Toni | Feito com ❤ por <span>Toni</span></p>
-	</footer>
-</body>
+		</main>
+		<footer>
+			<p>
+				&copy; Tio Toni | Feito com ❤ por
+				<a href="http://t8ninho.com/">T8ninho</a>
+			</p>
+		</footer>
+	</body>
 </html>

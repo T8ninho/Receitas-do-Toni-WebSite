@@ -1,44 +1,95 @@
+/*	Estilos globais	*/
+:root {
+	--color-primary: #00ff00;
+	--color-secondary: #ff0000;
+	--color-terthiary: #000;
+	--color-quarthenary: #fff;
+	--color-quinthenary: rgb(136, 80, 73);
+}
+
+/* Barra de navegação */
 body {
-	background-color: coral;
+	::-webkit-scrollbar {
+		width: 10px;
+	};
+
+	::-webkit-scrollbar-track {
+		background: var(--color-quinthenary);
+	};
+
+	::-webkit-scrollbar-thumb {
+		background: var(--color-primary);
+		border-radius: 5px;
+	}
+
+	::selection {}
 }
-header ul {
-	display: flex;
-	padding-left: 10px;
+
+/* Menu de navegação */
+header {
+	height: 60px;
+	background-color: var(--color-primary);
+	
 }
-header ul li {
+
+
+header li {
 	margin: 20px;
 	list-style: none;
 }
-header {
-	height: 60px;
-	background-color: #00ff00;
+
+.titulo {
+	color: var(--color-terthiary);
+	font-weight: 900;
+	font-size: 110%;
+	text-decoration: none;
 }
-main {
-	display: flex;
-	height: calc(100vh - 100px);
-	justify-content: center;
+.titulo:hover {
+	border-bottom: 3px var(--color-quarthenary) solid;
+}
+.tituloAtivo {
+	color: var(--color-secondary);
+	border-bottom: 3px var(--color-secondary) dotted;
 }
 
+
+/* Conteudo principal */
+main {
+	height: calc(100vh - 100px);
+	overflow-y: auto;
+	padding: 10px;
+}
+
+/* Input Cadastro */
+.sombra-externa {
+	box-shadow: 
+	rgba(0, 0, 0, 0.25) 0px 54px 55px,
+	rgba(0, 0, 0, 0.12) 0px -12px 30px,
+	rgba(0, 0, 0, 0.12) 0px 4px 6px,
+	rgba(0, 0, 0, 0.17) 0px 12px 13px,
+	rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sombra-interna {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+/* Rodapé  */
 footer {
 	height: 25px;
-	background-color: #00ff00;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	background-color: var(--color-primary);
 }
 footer p {
 	text-align: center;
-}
-h3 {
-	text-align: center;
-}
-.titulo {
-	color: #000;
 	font-weight: 900;
 }
-.tituloAtivo {
-	color: red;
+footer p a {
+	color:var(--color-secondary);
+	text-decoration: none;
+}
+
+footer p a:hover {
+	border-bottom: 2px var(--color-quarthenary) solid  ;
 }
 .logo {
 	height: 50px;
@@ -49,10 +100,7 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
 
-}
-.containerTitulo {
-	display: flex;
-	padding-bottom: 3%;
-}
+
 
