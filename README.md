@@ -7,7 +7,7 @@
 
 Missão prática do primeiro nível de conhecimento do 2º Mundo do Curso Full-Stack da Universidade Estácio.
 
-🔗 [Projeto](#-Projeto) - [Descrição](#-Descrição) - [Objetivo](#-Objetivo) - [Materiais_necessários](#-Materiais_necessários) - [Instalação](#-Instalação) - [Autor](#-Autor).
+🔗 [Projeto](#-Projeto) - [Descrição](#-Descrição) - [Objetivo](#-Objetivo) - [Materiais_necessários](#-Materiais_necessários) - [Instalação](#-Instalação) - [Imagens](#-Imagens) - [Autor](#-Autor).
 
 ---
 
@@ -65,9 +65,8 @@ acesse a guia do `Arquivo` clique em `code` escolha a opção desejada para `clo
 
  ---
 
-## 🔎 Meus exemplos de procedimento
+## 🔎 Imagens
 
-### 1º Procedimento:
 
 Página Inicial
 
@@ -75,14 +74,12 @@ Página Inicial
 
 A estrutura deste site foi definida de forma básica com `HTML5` a linguagem para `pt-br`os elementos `semânticos`com uma imagem de `logotipo próprio` e a área de `rodapé` incluido a informação de `copyright` etc.
 
-### 2º Procedimento:
 
 Página de Receitas
 
 ![ Receitas ](./Image/Pages_Receitas.png)
 As receitas foram apresentas em `div`, organizadas no modo `flex` utilizando a barra de rolagem `vertical responsiva`.
 
-### 3º Procedimento:
 
 Página do cadastro
 
