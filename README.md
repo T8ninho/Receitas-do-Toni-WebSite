@@ -7,7 +7,7 @@
 
 Missão prática do primeiro nível de conhecimento do 2º Mundo do Curso Full-Stack da Universidade Estácio.
 
-🔗 [Project](#-project) - [Descriptions](#-descriptions) - [Objective](#-objective) - [Lightweight](#-lightweight) - [Download](#-download) - [Install](#-install) - [Property](#property) - [License](#licence).
+🔗 [Projeto](#-Projeto) - [Descrição](#-Descrição) - [Objetivo](#-Objetivo) - [Materiais_necessários](#-Materiais_necessários) - [Instalação](#-Instalação) - [Autor](#Autor).
 
 ---
 
@@ -39,7 +39,7 @@ Considerando os objetivos listados:
 
 ---
 
-## 🛠 Materiais necessários
+## 🛠 Materiais_necessários
 
 Para atingirmos o nosso objetivo, recomendamos os seguintes tópicos:
 
@@ -55,7 +55,7 @@ Segue os links para baixar as tecnologias que foram utilizadas:
 
 [![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/) [![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.3/getting-started/introduction/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) ![HTML](https://img.shields.io/badge/-HTML-ECE2FB?style=for-the-badge&logo=HTML5)&nbsp;
 
-## 📉 Install
+## 📉 Instalação
 
 Acesse o link do repositório → [Receitas-do-Toni-WebSite](https://github.com/T8ninho/Receitas-do-Toni-WebSite)
 acesse a guia do `Arquivo` clique em `code` escolha a opção desejada para `clonar o repositorio`.
@@ -90,7 +90,7 @@ Página do cadastro
 As demais páginas foram modificadas para acrescentar o codigo do menu incluindo o `bootstrap`.
 
 
-## 👩‍💻 Propriedades:
+## 👩‍💻 Autor
 
 Este repositório foi desenvolvido por
 |Autor|Matricúla|
