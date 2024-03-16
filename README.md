@@ -69,7 +69,7 @@ acesse a guia do `Arquivo` clique em `code` escolha a opção desejada para `clo
 
 ### 1º Procedimento:
 
- Página Inicial - Menu - Home
+Página Inicial
 
 ![Pagina Inicial](./Image/Pages_Home.png)
 
