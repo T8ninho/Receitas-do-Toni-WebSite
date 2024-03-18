@@ -1,34 +1,39 @@
 /*	Estilos globais	*/
 :root {
-	--color-primary: #00ff00;
-	--color-secondary: #ff0000;
-	--color-terthiary: #000;
-	--color-quarthenary: #fff;
-	--color-quinthenary: rgb(136, 80, 73);
+	--color-Primary: #00ff00;
+	--color-Secondary: #ff0000;
+	--color-Tertiary: #000;
+	--color-Quaternary: #fff;
+	--color-Quinary: rgb(136, 80, 73);
+	--color-Senary: #00a600;
 }
 
-/* Barra de navegação */
+
 body {
+	/* Barra de navegação */
 	::-webkit-scrollbar {
 		width: 10px;
 	};
 
 	::-webkit-scrollbar-track {
-		background: var(--color-quinthenary);
+		background: var(--color-Quinary);
 	};
 
 	::-webkit-scrollbar-thumb {
-		background: var(--color-primary);
+		background: var(--color-Primary);
 		border-radius: 5px;
 	}
 
-	::selection {}
+	::selection {
+		background-color: var(--color-Senary);
+		color: var(--color-Tertiary);
+	}
 }
 
 /* Menu de navegação */
 header {
 	height: 60px;
-	background-color: var(--color-primary);
+	background-color: var(--color-Primary);
 	
 }
 
@@ -39,17 +44,17 @@ header li {
 }
 
 .titulo {
-	color: var(--color-terthiary);
+	color: var(--color-Tertiary);
 	font-weight: 900;
 	font-size: 110%;
 	text-decoration: none;
 }
 .titulo:hover {
-	border-bottom: 3px var(--color-quarthenary) solid;
+	border-bottom: 3px var(--color-Quaternary) solid;
 }
 .tituloAtivo {
 	color: var(--color-secondary);
-	border-bottom: 3px var(--color-secondary) dotted;
+	border-bottom: 3px var(--color-Secondary) dotted;
 }
 
 
@@ -77,19 +82,19 @@ main {
 /* Rodapé  */
 footer {
 	height: 25px;
-	background-color: var(--color-primary);
+	background-color: var(--color-Primary);
 }
 footer p {
 	text-align: center;
 	font-weight: 900;
 }
 footer p a {
-	color:var(--color-secondary);
+	color:var(--color-Secondary);
 	text-decoration: none;
 }
 
 footer p a:hover {
-	border-bottom: 2px var(--color-quarthenary) solid  ;
+	border-bottom: 2px var(--color-Quaternary) solid  ;
 }
 .logo {
 	height: 50px;
