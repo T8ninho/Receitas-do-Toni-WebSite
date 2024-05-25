@@ -90,8 +90,8 @@ As demais páginas foram modificadas para acrescentar o codigo do menu incluindo
 ## 👩‍💻 Autor
 
 Este repositório foi desenvolvido por
-|Autor|Matricúla|
-|----------------|----------------|
-| Antonio Vitor |202307014834||
+|Autor|
+|----------------|
+| Antonio Vitor |
 
 Para mais informação entre em contato com a administração da `Estacio` ou aqui `comigo`.
